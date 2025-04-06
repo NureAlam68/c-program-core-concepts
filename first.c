@@ -7,15 +7,28 @@
 // } 
 
 // variable declaration and initialization
+// #include <stdio.h>
+// int main() {
+//     int a = 10; // integer variable
+//     float b = 20.5; // float variable
+//     char c = 'A'; // character variable
+
+//     printf("Integer: %d\n", a);
+//     printf("Float: %.2f\n", b);
+//     printf("Character: %c\n", c);
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main() {
+//     long long int a = 1234567890123456789; // long long integer variable
+//     printf("Long Long Integer: %lld\n", a);
+//     return 0;
+// }
+
 #include <stdio.h>
 int main() {
-    int a = 10; // integer variable
-    float b = 20.5; // float variable
-    char c = 'A'; // character variable
-
-    printf("Integer: %d\n", a);
-    printf("Float: %.2f\n", b);
-    printf("Character: %c\n", c);
-
-    return 0;
+    double a = 1343523.455656; // double variable
+    printf("Double: %lf\n", a); // print double with 2 decimal places
 }
