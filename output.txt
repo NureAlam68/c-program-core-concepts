@@ -1,3 +1,2 @@
-Integer: 10
-Float: 20.50
-Character: A
+isTrue: 1
+isFalse: 0
