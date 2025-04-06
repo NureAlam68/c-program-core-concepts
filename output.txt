@@ -1,3 +1,3 @@
-Hello, World!!!
-This is my first C program
-I am learning C programming
+Integer: 10
+Float: 20.50
+Character: A
