@@ -27,8 +27,21 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+// int main() {
+//     double a = 1343523.455656; // double variable
+//     printf("Double: %lf\n", a); // print double with 2 decimal places
+// }
+
 #include <stdio.h>
 int main() {
-    double a = 1343523.455656; // double variable
-    printf("Double: %lf\n", a); // print double with 2 decimal places
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int a;
+    long long int b;
+    float c;
+    char d;
+    scanf("%d %lld %f %c", &a, &b, &c, &d);
+    printf("%d\n%lld\n%.2f\n%c", a, b, c, d);
+    return 0;
 }
